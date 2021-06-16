@@ -2,8 +2,7 @@ class Flashcard::Scraper
   def self.scrape
       url = "https://ruby-doc.org/core-2.5.3/Method.html"
       doc = Nokogiri::HTML(open(url))
-      class_name = "method-detail"
-      all_lessons = doc.xpath("//*[contains(concat(' ', normalize-space(@class), ' '), ' #{class_name} ')]")
+      all_lessons = doc.css(".method-detail")
       arr = []
       all_lessons.each do |node|
         lesson = {}
