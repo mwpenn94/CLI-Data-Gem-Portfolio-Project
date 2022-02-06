@@ -2,27 +2,23 @@
 
 [Check out the demo here🎬](https://drive.google.com/file/d/199O6YfDoE4PXk9E7Mk1JmRa9L3YIZEb2/view?usp=sharing)
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/flashcard`. To experiment with that code, run `bin/console` for an interactive prompt.
+## Description
+This is a CLI Data Gem that scrapes [Ruby-Doc.org](https://ruby-doc.org/) and enables CRUD functionality for users to test themselves on Ruby methods based on their preferred selection from an multiple available test formats.
 
-## Installation
+It is designed for straightforward use with minimal explanation required for the user.
 
-Add this line to your application's Gemfile:
 
-```ruby
-gem 'flashcard'
-```
+## Set-Up 
+   * Clone this repo to your local environment
+   * Add this line to your application's Gemfile:
 
-And then execute:
-
-    $ bundle install
-
-Or install it yourself as:
-
-    $ gem install flashcard
-
-## Usage
-
-TODO: Write usage instructions here
+    ```ruby
+    gem 'flashcard'
+    ```
+   * From within the repository you just cloned, run 'bundle install'
+   * Put your Ruby code in the file `lib/flashcard`
+   * To experiment with that code, run `bin/console` for an interactive prompt
+   * Enjoy your flashcard CLI!
 
 ## Development
 
